@@ -1,8 +1,9 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/path", // 这是你希望匹配的路径
-      "destination": "https://example.com/path" // 这是你希望将请求转发到的目标地址
+      "src": "/api/(.*)",
+      "dest": "https://tqs3ft.laf.dev/test"
     }
   ]
 }
+
