@@ -4,11 +4,11 @@
       "src": "/(.*)",
       "dest": "https://tqs3ft.laf.dev",
       "method": "post",
-      "headers": {
+      "headers": [
         "/api/*": {
           "Content-Type": "application/xml"
         }
-      }
+      ]
     }
   ]
 }
