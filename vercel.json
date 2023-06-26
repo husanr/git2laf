@@ -2,8 +2,8 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)", /* 这是你希望匹配的路径 */
-      "destination": "https://tqs3ft.laf.dev" // 这是你希望将请求转发到的目标地址
+      "source": "/(.*)", 
+      "destination": "https://tqs3ft.laf.dev" 
     }
   ]
 }
