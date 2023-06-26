@@ -2,8 +2,8 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)", 
-      "destination": "https://tqs3ft.laf.dev" 
+      "source": "/test", 
+      "destination": "https://tqs3ft.laf.dev/test" 
     }
   ]
 }
