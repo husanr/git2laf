@@ -17,7 +17,10 @@
       {
         "key": "accept",
         "value": "*/*"
-      }
+      },
+      {
+        "key": "Content-Type",
+        "value": "text/xml"
     ]
   }],
   "routes": [
