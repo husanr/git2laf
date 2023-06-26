@@ -1,18 +1,14 @@
 {
-  "route": [
-    { 
-      "src": "",
-      "desc": ""
-    }
-  ]
-}
-
-
-{
-  "rewrites": [
+  "routes": [
     {
-      "source": "/test", 
-      "destination": "https://tqs3ft.laf.dev/test" 
+      "src": "/(.*)",
+      "dest": "https://tqs3ft.laf.dev",
+      "method": "post",
+      "headers": {
+        "/api/*": {
+          "Content-Type": "application/xml"
+        }
+      }
     }
   ]
 }
