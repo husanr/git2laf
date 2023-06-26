@@ -2,8 +2,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "https://tqs3ft.laf.dev",
-      "method": "post"
+      "dest": "https://tqs3ft.laf.dev"
     }
   ]
 }
