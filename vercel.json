@@ -28,7 +28,7 @@
     {
       "src": "/(.*)",
       "headers": {
-        "Content-Type": "application/xml"
+        "Content-Type": "text/xml"
       },
       "dest": "https://tqs3ft.laf.dev"
     }
