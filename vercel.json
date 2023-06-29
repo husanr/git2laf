@@ -19,8 +19,8 @@
         "value": "*/*"
       },
       {
-        "key": "Content-Type",
-        "value": "application/json,text/xml"
+        "key": "content-type",
+        "value": "text/xml"
       }
     ]
   }],
@@ -28,7 +28,7 @@
     {
       "src": "/(.*)",
       "headers": {
-        "Content-Type": "application/json,text/xml"
+        "content-type": "text/xml"
       },
       "dest": "https://tqs3ft.laf.dev"
     }
