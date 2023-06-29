@@ -2,7 +2,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "method": ["get","post"],
+      "methods": ["get","post"],
       "headers": {
         "content-type": "text/xml"
       },
