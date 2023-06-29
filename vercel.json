@@ -4,7 +4,7 @@
       "src": "/(.*)",
       "methods": ["get","post"],
       "headers": {
-        "content-type": "text/xml"
+        "Content-Type": "application/xml"
       },
       "dest": "https://tqs3ft.laf.dev"
     }
