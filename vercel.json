@@ -20,7 +20,7 @@
       },
       {
         "key": "Content-Type",
-        "value": "application/xml"
+        "value": "application/json,text/xml"
       }
     ]
   }],
@@ -28,7 +28,7 @@
     {
       "src": "/(.*)",
       "headers": {
-        "Content-Type": "application/xml"
+        "Content-Type": "application/json,text/xml"
       },
       "dest": "https://tqs3ft.laf.dev"
     }
